@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/simulation"
 )
 
 func TestRandomizedGenState(t *testing.T) {

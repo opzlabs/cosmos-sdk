@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	govutils "github.com/cosmos/cosmos-sdk/x/gov/client/utils"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	govutils "github.com/opzlabs/cosmos-sdk/x/gov/client/utils"
 )
 
 type legacyProposal struct {

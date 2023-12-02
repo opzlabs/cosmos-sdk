@@ -6,10 +6,10 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"sigs.k8s.io/yaml"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types"
 )
 
 // Governance message types and routes

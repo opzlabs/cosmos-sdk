@@ -6,13 +6,13 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
-	"github.com/cosmos/cosmos-sdk/x/feegrant/keeper"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/feegrant"
+	"github.com/opzlabs/cosmos-sdk/x/feegrant/keeper"
 )
 
 type GenesisTestSuite struct {

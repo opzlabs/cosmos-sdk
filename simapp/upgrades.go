@@ -1,12 +1,12 @@
 package simapp
 
 import (
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/nft"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/nft"
+	upgradetypes "github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the sample simap upgrade from v045 to v046.

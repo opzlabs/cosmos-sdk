@@ -7,17 +7,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cryptocodec "github.com/opzlabs/cosmos-sdk/crypto/codec"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authclient "github.com/opzlabs/cosmos-sdk/x/auth/client"
+	"github.com/opzlabs/cosmos-sdk/x/auth/migrations/legacytx"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
 )
 
 var (

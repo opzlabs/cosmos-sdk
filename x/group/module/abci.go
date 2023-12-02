@@ -1,8 +1,8 @@
 package module
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/group/keeper"
 )
 
 func EndBlocker(ctx sdk.Context, k keeper.Keeper) {

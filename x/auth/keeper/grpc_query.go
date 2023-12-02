@@ -6,15 +6,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	"github.com/opzlabs/cosmos-sdk/types/query"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/auth/types"
 )
 
 var _ types.QueryServer = AccountKeeper{}

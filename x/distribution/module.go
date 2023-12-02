@@ -10,16 +10,16 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
-	"github.com/cosmos/cosmos-sdk/x/distribution/simulation"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	sdkclient "github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cdctypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/distribution/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/distribution/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/distribution/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/distribution/types"
 )
 
 var (

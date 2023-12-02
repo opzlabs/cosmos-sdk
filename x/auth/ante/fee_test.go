@@ -1,11 +1,11 @@
 package ante_test
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/auth/ante"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
 )
 
 func (s *AnteTestSuite) TestDeductFeeDecorator_ZeroGas() {

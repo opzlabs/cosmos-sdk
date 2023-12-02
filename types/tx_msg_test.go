@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 type testMsgSuite struct {

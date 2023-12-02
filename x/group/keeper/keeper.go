@@ -6,14 +6,14 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/errors"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/orm"
 )
 
 const (

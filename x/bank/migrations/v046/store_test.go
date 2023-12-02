@@ -5,15 +5,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v043 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v043"
-	v046 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v046"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	v043 "github.com/opzlabs/cosmos-sdk/x/bank/migrations/v043"
+	v046 "github.com/opzlabs/cosmos-sdk/x/bank/migrations/v046"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 var (
@@ -106,12 +106,12 @@ func TestMigrateDenomMetaData(t *testing.T) {
 }
 
 // migrateDenomMetadataV0464 is the denom metadata migration function present
-// in v0.46.4. It is buggy, as discovered in https://github.com/cosmos/cosmos-sdk/pull/13821.
+// in v0.46.4. It is buggy, as discovered in https://github.com/opzlabs/cosmos-sdk/pull/13821.
 // It is copied verbatim here to test the helper function Migrate_V046_4_To_V046_5
 // which aims to fix the bug on chains already on v0.46.
 //
 // Copied from:
-// https://github.com/cosmos/cosmos-sdk/blob/v0.46.4/x/bank/migrations/v046/store.go#L75-L94
+// https://github.com/opzlabs/cosmos-sdk/blob/v0.46.4/x/bank/migrations/v046/store.go#L75-L94
 func migrateDenomMetadataV0464(store sdk.KVStore) error {
 	oldDenomMetaDataStore := prefix.NewStore(store, v043.DenomMetadataPrefix)
 

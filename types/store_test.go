@@ -7,9 +7,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/store/rootmulti"
+	"github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 type storeTestSuite struct {

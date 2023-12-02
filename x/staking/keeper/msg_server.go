@@ -10,11 +10,11 @@ import (
 
 	"github.com/armon/go-metrics"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/telemetry"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 type msgServer struct {

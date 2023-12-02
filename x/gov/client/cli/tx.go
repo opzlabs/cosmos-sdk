@@ -7,15 +7,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	govutils "github.com/cosmos/cosmos-sdk/x/gov/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/client/tx"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/version"
+	govutils "github.com/opzlabs/cosmos-sdk/x/gov/client/utils"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 // Proposal flags

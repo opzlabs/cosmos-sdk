@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	v042auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v042"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
+	v042auth "github.com/opzlabs/cosmos-sdk/x/auth/migrations/v042"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // Staking params default values

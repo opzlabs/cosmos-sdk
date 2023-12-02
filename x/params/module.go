@@ -9,17 +9,17 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/params/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/params/keeper"
-	"github.com/cosmos/cosmos-sdk/x/params/simulation"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/params/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/params/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/params/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/params/types"
+	"github.com/opzlabs/cosmos-sdk/x/params/types/proposal"
 )
 
 var (

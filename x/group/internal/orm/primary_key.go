@@ -1,8 +1,8 @@
 package orm
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 var (

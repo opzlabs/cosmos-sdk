@@ -4,16 +4,16 @@ import (
 	"errors"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/opzlabs/cosmos-sdk/simapp/params"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/slashing/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/slashing/types"
+	stakingkeeper "github.com/opzlabs/cosmos-sdk/x/staking/keeper"
 )
 
 // Simulation operation weights constants

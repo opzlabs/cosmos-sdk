@@ -7,11 +7,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/query"
+	"github.com/opzlabs/cosmos-sdk/x/feegrant"
 )
 
 var _ feegrant.QueryServer = Keeper{}

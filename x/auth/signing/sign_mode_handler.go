@@ -1,9 +1,9 @@
 package signing
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
 )
 
 // SignModeHandler defines a interface to be implemented by types which will handle

@@ -25,15 +25,15 @@ import (
 	tmlog "github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/server/config"
+	"github.com/opzlabs/cosmos-sdk/server/types"
+	"github.com/opzlabs/cosmos-sdk/snapshots"
+	snapshottypes "github.com/opzlabs/cosmos-sdk/snapshots/types"
+	"github.com/opzlabs/cosmos-sdk/store"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/version"
 )
 
 // DONTCOVER

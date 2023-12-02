@@ -10,11 +10,11 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/tests/mocks"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	"github.com/opzlabs/cosmos-sdk/tests/mocks"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	"github.com/opzlabs/cosmos-sdk/types"
 )
 
 type contextTestSuite struct {

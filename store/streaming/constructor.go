@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	serverTypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/store/streaming/file"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	serverTypes "github.com/opzlabs/cosmos-sdk/server/types"
+	"github.com/opzlabs/cosmos-sdk/store/streaming/file"
+	"github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 
 	"github.com/spf13/cast"
 )

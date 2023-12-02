@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	clitestutil "github.com/opzlabs/cosmos-sdk/testutil/cli"
+	"github.com/opzlabs/cosmos-sdk/testutil/network"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/gov/client/cli"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 type DepositTestSuite struct {

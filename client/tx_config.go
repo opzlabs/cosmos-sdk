@@ -1,10 +1,10 @@
 package client
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/tx"
+	signingtypes "github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/signing"
 )
 
 type (

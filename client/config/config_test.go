@@ -7,13 +7,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/config"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/config"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	clitestutil "github.com/opzlabs/cosmos-sdk/testutil/cli"
+	"github.com/opzlabs/cosmos-sdk/x/staking/client/cli"
 	"github.com/stretchr/testify/require"
 )
 

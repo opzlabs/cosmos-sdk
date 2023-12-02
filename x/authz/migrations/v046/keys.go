@@ -3,10 +3,10 @@ package v046
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/opzlabs/cosmos-sdk/internal/conv"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 // Keys for store prefixes

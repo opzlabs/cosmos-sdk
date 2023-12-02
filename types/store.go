@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/opzlabs/cosmos-sdk/store/types"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 type (

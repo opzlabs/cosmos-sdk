@@ -12,15 +12,15 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/group/module"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/math"
+	"github.com/opzlabs/cosmos-sdk/x/group/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/group/module"
 )
 
 const minExecutionPeriod = 5 * time.Second
@@ -88,7 +88,7 @@ func TestKeeperTestSuite(t *testing.T) {
 }
 
 // Testing a deadlock issue when querying group members
-// https://github.com/cosmos/cosmos-sdk/issues/12111
+// https://github.com/opzlabs/cosmos-sdk/issues/12111
 func (s *TestSuite) TestCreateGroupWithLotsOfMembers() {
 	for i := 50; i < 70; i++ {
 		membersResp := s.createGroupAndGetMembers(i)

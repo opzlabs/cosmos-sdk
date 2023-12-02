@@ -12,17 +12,17 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/crypto/hd"
+	"github.com/opzlabs/cosmos-sdk/crypto/keyring"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	"github.com/opzlabs/cosmos-sdk/testutil/cli"
+	"github.com/opzlabs/cosmos-sdk/testutil/network"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	banktestutil "github.com/opzlabs/cosmos-sdk/x/bank/client/testutil"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	client "github.com/opzlabs/cosmos-sdk/x/group/client/cli"
 )
 
 type IntegrationTestSuite struct {

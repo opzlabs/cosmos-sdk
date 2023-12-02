@@ -1,14 +1,14 @@
 package v043
 
 import (
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v042auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v042"
-	v043distribution "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v043"
-	v040staking "github.com/cosmos/cosmos-sdk/x/staking/migrations/v042"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	v042auth "github.com/opzlabs/cosmos-sdk/x/auth/migrations/v042"
+	v043distribution "github.com/opzlabs/cosmos-sdk/x/distribution/migrations/v043"
+	v040staking "github.com/opzlabs/cosmos-sdk/x/staking/migrations/v042"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // migratePrefixAddressAddressAddress is a helper function that migrates all keys of format:

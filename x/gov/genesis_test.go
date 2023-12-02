@@ -10,15 +10,15 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	distributiontypes "github.com/opzlabs/cosmos-sdk/x/distribution/types"
+	"github.com/opzlabs/cosmos-sdk/x/gov"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 func TestImportExportQueues(t *testing.T) {

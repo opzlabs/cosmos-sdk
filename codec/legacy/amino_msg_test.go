@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/codec/legacy"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
 	"github.com/stretchr/testify/require"
 )
 

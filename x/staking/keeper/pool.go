@@ -2,9 +2,9 @@ package keeper
 
 import (
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // GetBondedPool returns the bonded tokens pool's module account

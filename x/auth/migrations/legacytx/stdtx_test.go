@@ -8,16 +8,16 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cryptocodec "github.com/opzlabs/cosmos-sdk/crypto/codec"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/opzlabs/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/tx"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
 )
 
 var (

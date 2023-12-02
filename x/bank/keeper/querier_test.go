@@ -5,13 +5,13 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/query"
+	"github.com/opzlabs/cosmos-sdk/x/bank/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
+	minttypes "github.com/opzlabs/cosmos-sdk/x/mint/types"
 )
 
 func (suite *IntegrationTestSuite) TestQuerier_QueryBalance() {
