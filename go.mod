@@ -171,10 +171,6 @@ replace (
 	github.com/jhump/protoreflect => github.com/jhump/protoreflect v1.9.0
 	// use cometbft
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
-<<<<<<< HEAD
-	//github.com/opzlabs/cosmos-sdk/db =>github.com/opzlabs/cosmos-sdk/db v0.46.11
-=======
->>>>>>> parent of 3e9a398 (db@v0.46.11)
 )
 
 retract (
