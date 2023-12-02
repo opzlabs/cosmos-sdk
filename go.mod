@@ -171,7 +171,7 @@ replace (
 	github.com/jhump/protoreflect => github.com/jhump/protoreflect v1.9.0
 	// use cometbft
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
-	github.com/opzlabs/cosmos-sdk/db@v1.0.0-beta.1 =>github.com/opzlabs/cosmos-sdk/db@v0.46.11
+	//github.com/opzlabs/cosmos-sdk/db =>github.com/opzlabs/cosmos-sdk/db v0.46.11
 )
 
 retract (
