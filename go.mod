@@ -170,7 +170,7 @@ replace (
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	github.com/jhump/protoreflect => github.com/jhump/protoreflect v1.9.0
 	// use cometbft
-	github.com/tendermint/tendermint => github.com/opzlabs/cometbft v0.34.27
+	github.com/tendermint/tendermint => github.com/opzlabs/cometbft v0.34.27-opzlab.1
 )
 
 retract (
