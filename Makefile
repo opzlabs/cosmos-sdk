@@ -173,6 +173,11 @@ go.sum: go.mod
 	go mod verify
 	go mod tidy
 
+go.clean: go.mod
+	echo "Clean all exists dependencies ..." >&2
+	go clean -cache -modcache -i -r
+	sudo rm -r $(which opzd)
+
 ###############################################################################
 ###                              Documentation                              ###
 ###############################################################################
